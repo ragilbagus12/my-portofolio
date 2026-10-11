@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar-container">
+        <a href="#home" class="logo">My Porto</a>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class="dropdown">
+                    <span class="dropdown-title">
+                        Contacts<i class="fa-solid fa-up-right-from-square"></i>
+                    </span>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tiktok.com" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>Tiktok
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ragilbagus12" target="_blank">
+                                <i class="fa-brands fa-github"></i>Github
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero-container">
+            <div class="hero-img">
+                <img src="assets/fotoku.jpg" alt="Foto Profil" loading="lazy">
+            </div>
+            <div class="hero-text">
+                <p class="greeting">Hello Everyone.</p>
+                <h1>I'M <span class="highlights-name">RAGIL BAGUS</span>, <br> 
+                    FRONT-END DEVELOPER<br> 
+                    FROM INDONESIA
+                </h1>
+            </div>
+        </section>
+
+        <section id="about" class="about-container">
+            <h2 class="about-title">About Me</h2>
+
+            <div class="about-text">
+                <p>Hello everyone, I'm Ragil Bagus Nugroho, a Software Engineering student at SMK PGRI 2 PONOROGO. I am currently focusing on front-end development.</p>
+                <p>This is a portfolio website I created for practice purposes it is not my actual professional portfolio. Thank you, and have a great day.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-container">
+            <h2 class="gallery-title">Gallery</h2>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="assets/code.jpg" alt="Coding" loading="lazy">
+                    <figcaption>Midnight with code</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/friends.jpg" alt="With Friend" loading="lazy">
+                    <figcaption>Having coffee with friends</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/healing1.jpg" alt="Relaxing" loading="lazy">
+                    <figcaption>Relaxing in the mountains</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/healing2.jpg" alt="Relax Part 2" loading="lazy">
+                    <figcaption>Relaxing at the beach</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/night-ride.jpg" alt="Night Ride" loading="lazy">
+                    <figcaption>Night Ride With Friends</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/pkl1.jpeg" alt="apprenticeship"  loading="lazy">
+                    <figcaption>Internship at Hummatech</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="projects" class="project-container">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/project-1.png" alt="Tampilan Web PPDB" class="card-img">
+
+                    <div class="card-projects">
+                        <h3>Website PPDB Sekolah</h3>
+                        <p>Ini adalah hasil dari projek membuat website PPDB Sekolah</p>
+
+                        <div class="card-tags">
+                            <span>Laravel & Vite</span>
+                            <span>Tailwind CSS</span>
+                            <span>Chart.js</span>
+                        </div>
+
+                        <div class="card-links">
+                            <a href="https://ppdb-smkpgri2.vercel.app/" target="_blank" class="btn btn-primary">Preview</a>
+                            <a href="https://github.com/ragilbagus12/ppdb-smkpgri2" target="_blank" class="btn btn-secondary">Github</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <img src="assets/project-2.png" alt="Tampilan Website Coffe Shop" class="card-img">
+
+                    <div class="card-projects">
+                        <h3>Website Coffe Shop</h3>
+                        <p>Ini adalah website coffe shop sederhana yang berhasil saya buat dari hasil latihan</p>
+
+                        <div class="card-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="card-links">
+                            <a href="https://senja-coffee-shop-website.vercel.app/" target="_blank" class="btn btn-primary">Preview</a>
+                            <a href="https://github.com/ragilbagus12/Senja_Coffee_Shop_Website" target="_blank" class="btn btn-secondary">Github</a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ragil Bagus. All right reserved.</p>
+    </footer>
+</body>
+</html>
